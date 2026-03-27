@@ -176,6 +176,4 @@ void loop() {
 
 - El model exacte del mòdul RFID comprat a AliExpress (ref. 32939768419) correspon al WL-134; el producte actual del mateix enllaç pot diferir.
 - La pila de 9 V alimenta directament el mòdul WL-134, el qual regula internament la tensió. L'ESP32 s'alimenta des de la protoboard per la mateixa línia.
-- El codi Arduino de l'ESP32 ja està documentat per separat.
-- Els crotals de mostra pertanyen al lot Datamars HDX, rang 941000020869379 a 941000020869383 (caixa 20262103).
 - En cas de voler substituir la pila per una altra font, cal assegurar una alimentació neta (no commutada) per evitar interferències en la lectura RFID.
